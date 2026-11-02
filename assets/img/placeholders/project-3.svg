@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" rx="28" fill="#d8f5c4"/>
+  <rect x="36" y="36" width="568" height="210" rx="20" fill="#fffdf8"/>
+  <text x="320" y="145" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="46" fill="#2c241c">Картинка 3</text>
+  <text x="320" y="200" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="26" fill="#6d5c4d">заполнитель</text>
+</svg>

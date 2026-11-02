@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Интерактивное</title>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html">Мастерская</a>
+<nav class="main-nav" aria-label="Главные страницы">
+<a class="nav-link" href="index.html">Проекты</a>
+<a class="nav-link is-active" href="interactive.html">Интерактивное</a>
+</nav>
+</header>
+<main class="page">
+<h1>Интерактивное</h1>
+<p class="lead">Две игрушки к уроку. В одной собирают плитки по правилам, в другой ходят по подземелью как в игре 1980 года. Можно смотреть и нажимать одновременно с объяснением.</p>
+<div class="choice-grid">
+    <a class="choice-card" href="tiles.html">
+        <svg class="choice-icon" viewBox="0 0 84 84" aria-hidden="true">
+            <polygon points="2,2 82,2 42,42" fill="#e23d3d"/>
+            <polygon points="82,2 82,82 42,42" fill="#2f7dff"/>
+            <polygon points="2,82 82,82 42,42" fill="#f2c14e"/>
+            <polygon points="2,2 2,82 42,42" fill="#3aaa45"/>
+            <rect x="2" y="2" width="80" height="80" fill="none" stroke="#2c241c" stroke-width="4" rx="10"/>
+        </svg>
+        <span>Плитки</span>
+        <small>Четыре уровня про плитки Вана: сборка, дороги, трава и песочница.</small>
+    </a>
+    <a class="choice-card" href="rogue.html">
+        <svg class="choice-icon" viewBox="0 0 84 84" aria-hidden="true">
+            <rect width="84" height="84" rx="14" fill="#2c241c"/>
+            <text x="42" y="54" text-anchor="middle" font-size="40" font-family="Trebuchet MS, Segoe UI, sans-serif" fill="#ff7a32">@</text>
+        </svg>
+        <span>Rogue</span>
+        <small>Подземелье, монстры и амулет. Рядом с ходом остаётся место для учебной пометки.</small>
+    </a>
+</div>
+</main>
+<footer class="site-footer">
+<p>Учебные игрушки для урока. С телефона и с компьютера открываются одни и те же страницы.</p>
+</footer>
+</body>
+</html>
